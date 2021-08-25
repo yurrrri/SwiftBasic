@@ -1,7 +1,7 @@
 /* 컬렉션 타입 */
 /* Array, Dictionary, Set */
 
-import UIKit
+import Swift
 
 /*
  Array - 순서가 있는 리스트 컬렉션
@@ -78,7 +78,7 @@ let initalizedDictionary: [String: String] = ["name": "yagom", "gender": "male"]
 // let으로 선언한 불변 Dictionary는 수정 불가 - 컴파일 오류 발생
 //emptyDictionary["key"] = "value"
 
-// name 키에 해당하는 값이 Dictionary에 존재하지 않을 수 있으므로
+// name 키에 해당하는 값이 Dictionary에 존재하지 않을 수 있으므로 
 // 컴파일 오류 발생 - 옵셔널 파트에서 상세히 다룹니다
 //let someValue: String = initalizedDictionary["name"]
 
