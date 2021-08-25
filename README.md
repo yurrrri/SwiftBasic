@@ -14,7 +14,7 @@ Q. 기본 자료형 4 가지는 무엇인가?
 
 - Bool, Int/UInt, Float/Double, Character/String
 - Int : 정수타입 /  UInt: 양의 정수 타입
-- Character, String : 큰 따옴표("")로 감쌈
+- Character, String : **큰 따옴표("")로 감쌈**
 
 Q. Any, AnyObject, nil
 
@@ -250,7 +250,6 @@ result = calculate(a: 10, b: 10) { $0 + $1 }
 
 print(result) // 20
 ```
-
 
 Q. 클래스와 구조체의 차이점은 무엇인가?
 
