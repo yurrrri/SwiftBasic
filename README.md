@@ -483,6 +483,9 @@ if let name = myName, let friend = yourName {
  - 옵셔널 강제추출
    - 값이 있는지 없는지 확인하지 않고 바로 값을 꺼내옴
 
+- 옵셔널 기본값
+  - ?? ex) delegate?.passData(sender.text ?? "기본값") 
+
 ```swift
 printName(myName!) // 강제추출 : yagom
 
